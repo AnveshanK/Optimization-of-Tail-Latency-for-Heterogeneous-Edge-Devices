@@ -1,0 +1,290 @@
+[
+ {
+  "load_name": "low",
+  "load": 0.3,
+  "bursty": false,
+  "seed": 1501552846
+ },
+ {
+  "load_name": "low",
+  "load": 0.3,
+  "bursty": false,
+  "seed": 488200390
+ },
+ {
+  "load_name": "low",
+  "load": 0.3,
+  "bursty": false,
+  "seed": 1693606511
+ },
+ {
+  "load_name": "low",
+  "load": 0.3,
+  "bursty": false,
+  "seed": 680233354
+ },
+ {
+  "load_name": "low",
+  "load": 0.3,
+  "bursty": false,
+  "seed": 438466540
+ },
+ {
+  "load_name": "low",
+  "load": 0.3,
+  "bursty": false,
+  "seed": 1712329281
+ },
+ {
+  "load_name": "low",
+  "load": 0.3,
+  "bursty": false,
+  "seed": 1380152456
+ },
+ {
+  "load_name": "low",
+  "load": 0.3,
+  "bursty": false,
+  "seed": 1452245847
+ },
+ {
+  "load_name": "low",
+  "load": 0.3,
+  "bursty": false,
+  "seed": 2122694022
+ },
+ {
+  "load_name": "low",
+  "load": 0.3,
+  "bursty": false,
+  "seed": 839901364
+ },
+ {
+  "load_name": "low",
+  "load": 0.3,
+  "bursty": false,
+  "seed": 1802651553
+ },
+ {
+  "load_name": "low",
+  "load": 0.3,
+  "bursty": false,
+  "seed": 714712467
+ },
+ {
+  "load_name": "medium",
+  "load": 0.6,
+  "bursty": false,
+  "seed": 1218704078
+ },
+ {
+  "load_name": "medium",
+  "load": 0.6,
+  "bursty": false,
+  "seed": 1284858264
+ },
+ {
+  "load_name": "medium",
+  "load": 0.6,
+  "bursty": false,
+  "seed": 457721135
+ },
+ {
+  "load_name": "medium",
+  "load": 0.6,
+  "bursty": false,
+  "seed": 401008610
+ },
+ {
+  "load_name": "medium",
+  "load": 0.6,
+  "bursty": false,
+  "seed": 492064534
+ },
+ {
+  "load_name": "medium",
+  "load": 0.6,
+  "bursty": false,
+  "seed": 1444732603
+ },
+ {
+  "load_name": "medium",
+  "load": 0.6,
+  "bursty": false,
+  "seed": 1317426687
+ },
+ {
+  "load_name": "medium",
+  "load": 0.6,
+  "bursty": false,
+  "seed": 2022506252
+ },
+ {
+  "load_name": "medium",
+  "load": 0.6,
+  "bursty": false,
+  "seed": 1516459119
+ },
+ {
+  "load_name": "medium",
+  "load": 0.6,
+  "bursty": false,
+  "seed": 533103612
+ },
+ {
+  "load_name": "medium",
+  "load": 0.6,
+  "bursty": false,
+  "seed": 1964759879
+ },
+ {
+  "load_name": "medium",
+  "load": 0.6,
+  "bursty": false,
+  "seed": 2037706757
+ },
+ {
+  "load_name": "high",
+  "load": 0.85,
+  "bursty": false,
+  "seed": 1572889066
+ },
+ {
+  "load_name": "high",
+  "load": 0.85,
+  "bursty": false,
+  "seed": 1432881519
+ },
+ {
+  "load_name": "high",
+  "load": 0.85,
+  "bursty": false,
+  "seed": 280516901
+ },
+ {
+  "load_name": "high",
+  "load": 0.85,
+  "bursty": false,
+  "seed": 205939248
+ },
+ {
+  "load_name": "high",
+  "load": 0.85,
+  "bursty": false,
+  "seed": 571904914
+ },
+ {
+  "load_name": "high",
+  "load": 0.85,
+  "bursty": false,
+  "seed": 948843458
+ },
+ {
+  "load_name": "high",
+  "load": 0.85,
+  "bursty": false,
+  "seed": 155492489
+ },
+ {
+  "load_name": "high",
+  "load": 0.85,
+  "bursty": false,
+  "seed": 1903701131
+ },
+ {
+  "load_name": "high",
+  "load": 0.85,
+  "bursty": false,
+  "seed": 1017961267
+ },
+ {
+  "load_name": "high",
+  "load": 0.85,
+  "bursty": false,
+  "seed": 1497769986
+ },
+ {
+  "load_name": "high",
+  "load": 0.85,
+  "bursty": false,
+  "seed": 456523489
+ },
+ {
+  "load_name": "high",
+  "load": 0.85,
+  "bursty": false,
+  "seed": 701095137
+ },
+ {
+  "load_name": "bursty",
+  "load": 0.6,
+  "bursty": true,
+  "seed": 249069577
+ },
+ {
+  "load_name": "bursty",
+  "load": 0.6,
+  "bursty": true,
+  "seed": 1576098729
+ },
+ {
+  "load_name": "bursty",
+  "load": 0.6,
+  "bursty": true,
+  "seed": 1662748501
+ },
+ {
+  "load_name": "bursty",
+  "load": 0.6,
+  "bursty": true,
+  "seed": 472736217
+ },
+ {
+  "load_name": "bursty",
+  "load": 0.6,
+  "bursty": true,
+  "seed": 1535411296
+ },
+ {
+  "load_name": "bursty",
+  "load": 0.6,
+  "bursty": true,
+  "seed": 175223003
+ },
+ {
+  "load_name": "bursty",
+  "load": 0.6,
+  "bursty": true,
+  "seed": 840936862
+ },
+ {
+  "load_name": "bursty",
+  "load": 0.6,
+  "bursty": true,
+  "seed": 343373188
+ },
+ {
+  "load_name": "bursty",
+  "load": 0.6,
+  "bursty": true,
+  "seed": 1597751083
+ },
+ {
+  "load_name": "bursty",
+  "load": 0.6,
+  "bursty": true,
+  "seed": 730359585
+ },
+ {
+  "load_name": "bursty",
+  "load": 0.6,
+  "bursty": true,
+  "seed": 1016641002
+ },
+ {
+  "load_name": "bursty",
+  "load": 0.6,
+  "bursty": true,
+  "seed": 998994690
+ }
+]

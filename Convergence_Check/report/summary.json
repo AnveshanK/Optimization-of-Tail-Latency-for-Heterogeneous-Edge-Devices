@@ -1,0 +1,590 @@
+{
+ "conv": {
+  "A": {
+   "figure": "conv_stageA.png",
+   "seeds": {
+    "0": {
+     "eval_first": 0.700437091145152,
+     "eval_final": 0.9683328413071434,
+     "eval_best": 0.9798008287729247,
+     "improvement": 0.2678957501619914,
+     "slope_last_quarter_per_100it": -0.014383174833795857,
+     "entropy_start": 0.5754655912518502,
+     "entropy_end": 0.33866103778903683,
+     "entropy_min": 0.10360592603683472,
+     "iter_reward_95pct": 10.0,
+     "entropy_min_before_95pct": 0.459991991519928,
+     "kl_median": 0.012282214723503177,
+     "kl_frac_above_003": 0.20666666666666667,
+     "ev_start": -0.03670324787443955,
+     "ev_end": 0.09344805696595654,
+     "copies_end": 1.277978515625,
+     "minutes": 43.24333333333333
+    },
+    "1": {
+     "eval_first": 0.8157047723922382,
+     "eval_final": 0.9714919224711416,
+     "eval_best": 0.9756227886505946,
+     "improvement": 0.15578715007890342,
+     "slope_last_quarter_per_100it": 0.0004412162414087967,
+     "entropy_start": 0.5044881138329704,
+     "entropy_end": 0.31466574965872696,
+     "entropy_min": 0.2932692524045706,
+     "iter_reward_95pct": 10.0,
+     "entropy_min_before_95pct": 0.4605579040944576,
+     "kl_median": 0.007711572650350718,
+     "kl_frac_above_003": 0.07333333333333333,
+     "ev_start": -0.02254557309345421,
+     "ev_end": 0.10240906564897784,
+     "copies_end": 1.3198893229166666,
+     "minutes": 47.705000000000005
+    },
+    "2": {
+     "eval_first": 0.9580745892992416,
+     "eval_final": 0.9714970864016172,
+     "eval_best": 0.9715621675751401,
+     "improvement": 0.013422497102375641,
+     "slope_last_quarter_per_100it": 3.7101932215173107e-05,
+     "entropy_start": 0.4829342279583216,
+     "entropy_end": 0.3109037661924958,
+     "entropy_min": 0.10317039443179965,
+     "iter_reward_95pct": 0.0,
+     "entropy_min_before_95pct": 0.7124829068779945,
+     "kl_median": 0.007877233639362657,
+     "kl_frac_above_003": 0.15,
+     "ev_start": -0.01947764833455884,
+     "ev_end": 0.11439391524674206,
+     "copies_end": 1.326220703125,
+     "minutes": 44.17333333333333
+    }
+   },
+   "final_mean": 0.9704406167266341,
+   "final_spread": 0.003164245094473883,
+   "final_rel_spread": 0.0032606272243087984
+  },
+  "B": {
+   "figure": "conv_stageB.png",
+   "seeds": {
+    "0": {
+     "eval_first": 0.07706994058608088,
+     "eval_final": 0.6699476755884665,
+     "eval_best": 0.7114039820521608,
+     "improvement": 0.5928777350023856,
+     "slope_last_quarter_per_100it": -0.0036952209881683197,
+     "entropy_start": 0.7356427967242302,
+     "entropy_end": 0.45743220769177767,
+     "entropy_min": 0.3614618501492909,
+     "iter_reward_95pct": 140.0,
+     "entropy_min_before_95pct": 0.5056317052558849,
+     "kl_median": 0.020861368488031613,
+     "kl_frac_above_003": 0.06,
+     "ev_start": 0.5463866174184467,
+     "ev_end": 0.8424125321873497,
+     "copies_end": 1.7893697916666667,
+     "minutes": 36.59
+    },
+    "1": {
+     "eval_first": -0.047007766207960294,
+     "eval_final": 0.6920552505874672,
+     "eval_best": 0.7102837937490216,
+     "improvement": 0.7390630167954275,
+     "slope_last_quarter_per_100it": -0.011306016372946317,
+     "entropy_start": 0.924840850052451,
+     "entropy_end": 0.5575821041262499,
+     "entropy_min": 0.4613662275175254,
+     "iter_reward_95pct": 200.0,
+     "entropy_min_before_95pct": 0.5102592532833418,
+     "kl_median": 0.021265639924917357,
+     "kl_frac_above_003": 0.2425,
+     "ev_start": 0.309696507263868,
+     "ev_end": 0.8600099112763399,
+     "copies_end": 1.6993333333333331,
+     "minutes": 36.97666666666667
+    },
+    "2": {
+     "eval_first": 0.002136328679890672,
+     "eval_final": 0.6653406199174969,
+     "eval_best": 0.6840113859129135,
+     "improvement": 0.6632042912376063,
+     "slope_last_quarter_per_100it": -0.021750535743991675,
+     "entropy_start": 0.6729693553378062,
+     "entropy_end": 0.5554063560998677,
+     "entropy_min": 0.4560030186548829,
+     "iter_reward_95pct": 130.0,
+     "entropy_min_before_95pct": 0.5101858085164657,
+     "kl_median": 0.021100757061483247,
+     "kl_frac_above_003": 0.0675,
+     "ev_start": 0.5746341382071816,
+     "ev_end": 0.872106489831063,
+     "copies_end": 1.5780885416666668,
+     "minutes": 38.525
+    }
+   },
+   "final_mean": 0.6757811820311436,
+   "final_spread": 0.026714630669970263,
+   "final_rel_spread": 0.03953148057434235
+  },
+  "C": {
+   "figure": "conv_stageC.png",
+   "seeds": {
+    "0": {
+     "eval_first": -0.22960216099387631,
+     "eval_final": 0.5295554154212679,
+     "eval_best": 0.6297521371441155,
+     "improvement": 0.7591575764151443,
+     "slope_last_quarter_per_100it": 0.016493242669746302,
+     "entropy_start": 0.9397544955958077,
+     "entropy_end": 0.5133176083211755,
+     "entropy_min": 0.431608543332134,
+     "iter_reward_95pct": 20.0,
+     "entropy_min_before_95pct": 0.8811705112457275,
+     "kl_median": 0.02182188605672472,
+     "kl_frac_above_003": 0.0525,
+     "ev_start": 0.5104469018964477,
+     "ev_end": 0.8843730122311253,
+     "copies_end": 2.00434375,
+     "minutes": 35.376666666666665
+    },
+    "1": {
+     "eval_first": -0.15884635258617666,
+     "eval_final": 0.5781449685459306,
+     "eval_best": 0.6511783574718043,
+     "improvement": 0.7369913211321072,
+     "slope_last_quarter_per_100it": 0.02935684661448874,
+     "entropy_start": 0.6409631728460987,
+     "entropy_end": 0.4822225059676527,
+     "entropy_min": 0.3657822703321775,
+     "iter_reward_95pct": 30.0,
+     "entropy_min_before_95pct": 0.502224343518416,
+     "kl_median": 0.022561440202446048,
+     "kl_frac_above_003": 0.0875,
+     "ev_start": 0.5293559189003788,
+     "ev_end": 0.8815637770828413,
+     "copies_end": 1.8966510416666664,
+     "minutes": 36.24666666666667
+    },
+    "2": {
+     "eval_first": -0.2013086556037067,
+     "eval_final": 0.5731412753197344,
+     "eval_best": 0.6219495979667938,
+     "improvement": 0.774449930923441,
+     "slope_last_quarter_per_100it": -0.016418722542827745,
+     "entropy_start": 0.7043561807129572,
+     "entropy_end": 0.4895971578240602,
+     "entropy_min": 0.39459612048589265,
+     "iter_reward_95pct": 30.0,
+     "entropy_min_before_95pct": 0.4440546774615844,
+     "kl_median": 0.021264436034603297,
+     "kl_frac_above_003": 0.0525,
+     "ev_start": 0.524499529383521,
+     "ev_end": 0.870629981597127,
+     "copies_end": 1.9833749999999999,
+     "minutes": 32.88333333333333
+    }
+   },
+   "final_mean": 0.5602805530956442,
+   "final_spread": 0.04858955312466262,
+   "final_rel_spread": 0.08672361169095942
+  },
+  "H": {
+   "figure": "conv_stageH_dmax1_aux.png",
+   "seeds": {
+    "0": {
+     "eval_first": 0.1068987108403008,
+     "eval_final": 0.9293608801161692,
+     "eval_best": 0.9299609303337398,
+     "improvement": 0.8224621692758685,
+     "slope_last_quarter_per_100it": -0.0006527501273925383,
+     "entropy_start": 0.30406427073758097,
+     "entropy_end": 0.07082351653807564,
+     "entropy_min": 0.006703723091050051,
+     "iter_reward_95pct": 10.0,
+     "entropy_min_before_95pct": 0.1317967176437378,
+     "kl_median": 0.005041416500493057,
+     "kl_frac_above_003": 0.025,
+     "ev_start": 0.10463039936181806,
+     "ev_end": 0.5463113739622629,
+     "copies_end": 1.0,
+     "minutes": 9.171666666666665
+    },
+    "1": {
+     "eval_first": 0.38823133968364193,
+     "eval_final": 0.9231116882595392,
+     "eval_best": 0.9296276464814648,
+     "improvement": 0.5348803485758973,
+     "slope_last_quarter_per_100it": -0.009977010975798858,
+     "entropy_start": 0.31361275935778393,
+     "entropy_end": 0.08124504710867768,
+     "entropy_min": 0.014217054354958236,
+     "iter_reward_95pct": 10.0,
+     "entropy_min_before_95pct": 0.24969477206468582,
+     "kl_median": 0.0050914603226601685,
+     "kl_frac_above_003": 0.01,
+     "ev_start": 0.1594731713651015,
+     "ev_end": 0.5583053091888005,
+     "copies_end": 1.0,
+     "minutes": 9.376666666666667
+    },
+    "2": {
+     "eval_first": 0.7449223366196561,
+     "eval_final": 0.9302029151829457,
+     "eval_best": 0.9316879295891294,
+     "improvement": 0.1852805785632896,
+     "slope_last_quarter_per_100it": 0.005839123730440345,
+     "entropy_start": 0.28683950880076736,
+     "entropy_end": 0.06236946801363956,
+     "entropy_min": 0.01941401424119249,
+     "iter_reward_95pct": 20.0,
+     "entropy_min_before_95pct": 0.08370059542357922,
+     "kl_median": 0.00488584802241121,
+     "kl_frac_above_003": 0.015,
+     "ev_start": 0.23394761522485572,
+     "ev_end": 0.5682983507759933,
+     "copies_end": 1.0,
+     "minutes": 9.376666666666667
+    }
+   },
+   "final_mean": 0.9275584945195514,
+   "final_spread": 0.0070912269234065795,
+   "final_rel_spread": 0.007645045531149634
+  }
+ },
+ "conv_nohist": {
+  "figure": "conv_stageC_nohist.png",
+  "seeds": {
+   "0": {
+    "eval_first": -0.2060723025043469,
+    "eval_final": 0.505065847151731,
+    "eval_best": 0.6236128249999746,
+    "improvement": 0.7111381496560779,
+    "slope_last_quarter_per_100it": -0.0839398325893033,
+    "entropy_start": 0.8426666601151988,
+    "entropy_end": 0.5153645338903561,
+    "entropy_min": 0.43644296435209423,
+    "iter_reward_95pct": 20.0,
+    "entropy_min_before_95pct": 0.8090650072464576,
+    "kl_median": 0.02187733333169225,
+    "kl_frac_above_003": 0.06,
+    "ev_start": 0.3857661043310733,
+    "ev_end": 0.8647689778415076,
+    "copies_end": 2.0017239583333337,
+    "minutes": 31.116666666666667
+   },
+   "1": {
+    "eval_first": -0.1298353385047628,
+    "eval_final": 0.5888143495973984,
+    "eval_best": 0.597191803806966,
+    "improvement": 0.7186496881021612,
+    "slope_last_quarter_per_100it": 0.03791012316486193,
+    "entropy_start": 0.822117036878347,
+    "entropy_end": 0.45724138163199013,
+    "entropy_min": 0.3947904642139162,
+    "iter_reward_95pct": 120.0,
+    "entropy_min_before_95pct": 0.44538833839552744,
+    "kl_median": 0.020730505183521365,
+    "kl_frac_above_003": 0.0525,
+    "ev_start": 0.46965663304755145,
+    "ev_end": 0.8715569934364172,
+    "copies_end": 2.0849531249999997,
+    "minutes": 33.376666666666665
+   },
+   "2": {
+    "eval_first": -0.19499209631358028,
+    "eval_final": 0.5454029435128319,
+    "eval_best": 0.5992448137253878,
+    "improvement": 0.7403950398264122,
+    "slope_last_quarter_per_100it": 0.014066512989242087,
+    "entropy_start": 0.7338776530114018,
+    "entropy_end": 0.48540148654348253,
+    "entropy_min": 0.4007504103439195,
+    "iter_reward_95pct": 40.0,
+    "entropy_min_before_95pct": 0.5309443560199462,
+    "kl_median": 0.02100650956026584,
+    "kl_frac_above_003": 0.045,
+    "ev_start": 0.4082733566441199,
+    "ev_end": 0.8735929550922709,
+    "copies_end": 2.0706458333333333,
+    "minutes": 30.045
+   }
+  },
+  "final_mean": 0.5464277134206538,
+  "final_spread": 0.08374850244566745,
+  "final_rel_spread": 0.15326547389296807
+ },
+ "conv_H": {
+  "history": {
+   "figure": "conv_stageH_dmax1_aux.png",
+   "seeds": {
+    "0": {
+     "eval_first": 0.1068987108403008,
+     "eval_final": 0.9293608801161692,
+     "eval_best": 0.9299609303337398,
+     "improvement": 0.8224621692758685,
+     "slope_last_quarter_per_100it": -0.0006527501273925383,
+     "entropy_start": 0.30406427073758097,
+     "entropy_end": 0.07082351653807564,
+     "entropy_min": 0.006703723091050051,
+     "iter_reward_95pct": 10.0,
+     "entropy_min_before_95pct": 0.1317967176437378,
+     "kl_median": 0.005041416500493057,
+     "kl_frac_above_003": 0.025,
+     "ev_start": 0.10463039936181806,
+     "ev_end": 0.5463113739622629,
+     "copies_end": 1.0,
+     "minutes": 9.171666666666665
+    },
+    "1": {
+     "eval_first": 0.38823133968364193,
+     "eval_final": 0.9231116882595392,
+     "eval_best": 0.9296276464814648,
+     "improvement": 0.5348803485758973,
+     "slope_last_quarter_per_100it": -0.009977010975798858,
+     "entropy_start": 0.31361275935778393,
+     "entropy_end": 0.08124504710867768,
+     "entropy_min": 0.014217054354958236,
+     "iter_reward_95pct": 10.0,
+     "entropy_min_before_95pct": 0.24969477206468582,
+     "kl_median": 0.0050914603226601685,
+     "kl_frac_above_003": 0.01,
+     "ev_start": 0.1594731713651015,
+     "ev_end": 0.5583053091888005,
+     "copies_end": 1.0,
+     "minutes": 9.376666666666667
+    },
+    "2": {
+     "eval_first": 0.7449223366196561,
+     "eval_final": 0.9302029151829457,
+     "eval_best": 0.9316879295891294,
+     "improvement": 0.1852805785632896,
+     "slope_last_quarter_per_100it": 0.005839123730440345,
+     "entropy_start": 0.28683950880076736,
+     "entropy_end": 0.06236946801363956,
+     "entropy_min": 0.01941401424119249,
+     "iter_reward_95pct": 20.0,
+     "entropy_min_before_95pct": 0.08370059542357922,
+     "kl_median": 0.00488584802241121,
+     "kl_frac_above_003": 0.015,
+     "ev_start": 0.23394761522485572,
+     "ev_end": 0.5682983507759933,
+     "copies_end": 1.0,
+     "minutes": 9.376666666666667
+    }
+   },
+   "final_mean": 0.9275584945195514,
+   "final_spread": 0.0070912269234065795,
+   "final_rel_spread": 0.007645045531149634
+  },
+  "no history": {
+   "figure": "conv_stageH_nohist_dmax1_aux.png",
+   "seeds": {
+    "0": {
+     "eval_first": -0.0280641442978317,
+     "eval_final": 0.9176412545315406,
+     "eval_best": 0.9251542215824143,
+     "improvement": 0.9457053988293722,
+     "slope_last_quarter_per_100it": 0.01043148613853239,
+     "entropy_start": 0.3291152162787815,
+     "entropy_end": 0.09150603815505746,
+     "entropy_min": 0.013348390581086278,
+     "iter_reward_95pct": 10.0,
+     "entropy_min_before_95pct": 0.16046515107154846,
+     "kl_median": 0.003638961703472887,
+     "kl_frac_above_003": 0.045,
+     "ev_start": 0.01721900619970506,
+     "ev_end": 0.13303840418122118,
+     "copies_end": 1.0,
+     "minutes": 8.931666666666667
+    },
+    "1": {
+     "eval_first": 0.6390558214960503,
+     "eval_final": 0.9248056044154107,
+     "eval_best": 0.9259181949271231,
+     "improvement": 0.2857497829193604,
+     "slope_last_quarter_per_100it": 0.03011376353073172,
+     "entropy_start": 0.2994748371187598,
+     "entropy_end": 0.09529338216816541,
+     "entropy_min": 0.0146191650419496,
+     "iter_reward_95pct": 10.0,
+     "entropy_min_before_95pct": 0.25047612003982067,
+     "kl_median": 0.0030172146162001923,
+     "kl_frac_above_003": 0.015,
+     "ev_start": 0.03433489359489474,
+     "ev_end": 0.13938154096254704,
+     "copies_end": 1.0,
+     "minutes": 9.020000000000001
+    },
+    "2": {
+     "eval_first": 0.8929264410578472,
+     "eval_final": 0.9117626084560665,
+     "eval_best": 0.9238218294036494,
+     "improvement": 0.01883616739821925,
+     "slope_last_quarter_per_100it": 0.004163859906531255,
+     "entropy_start": 0.2691820153500885,
+     "entropy_end": 0.12313665189431049,
+     "entropy_min": 0.02162631187820807,
+     "iter_reward_95pct": 0.0,
+     "entropy_min_before_95pct": 0.7766844729582468,
+     "kl_median": 0.0025451541555412405,
+     "kl_frac_above_003": 0.025,
+     "ev_start": 0.016253264202659358,
+     "ev_end": 0.1340687565745066,
+     "copies_end": 1.0,
+     "minutes": 9.003333333333334
+    }
+   },
+   "final_mean": 0.9180698224676725,
+   "final_spread": 0.013042995959344217,
+   "final_rel_spread": 0.014206976027472564
+  }
+ },
+ "checks": [
+  [
+   "Simulator unit checks (12 of 12)",
+   true
+  ],
+  [
+   "Stage A: reward improves from the start",
+   true
+  ],
+  [
+   "Stage A: reward flattens (small slope at the end)",
+   true
+  ],
+  [
+   "Stage A: 3 seeds agree (spread \u2264 10% of mean or \u2264 0.03)",
+   true
+  ],
+  [
+   "Stage A: critic explained variance rises (> 0.3 at the end; Stage A: > half its noise ceiling)",
+   true
+  ],
+  [
+   "Stage A: entropy falls gradually, no premature collapse",
+   true
+  ],
+  [
+   "Stage A: policy change per update small",
+   false
+  ],
+  [
+   "Stage B: reward improves from the start",
+   true
+  ],
+  [
+   "Stage B: reward flattens (small slope at the end)",
+   true
+  ],
+  [
+   "Stage B: 3 seeds agree (spread \u2264 10% of mean or \u2264 0.03)",
+   true
+  ],
+  [
+   "Stage B: critic explained variance rises (> 0.3 at the end; Stage A: > half its noise ceiling)",
+   true
+  ],
+  [
+   "Stage B: entropy falls gradually, no premature collapse",
+   true
+  ],
+  [
+   "Stage B: policy change per update small",
+   false
+  ],
+  [
+   "Stage C: reward improves from the start",
+   true
+  ],
+  [
+   "Stage C: reward flattens (small slope at the end)",
+   true
+  ],
+  [
+   "Stage C: 3 seeds agree (spread \u2264 10% of mean or \u2264 0.03)",
+   true
+  ],
+  [
+   "Stage C: critic explained variance rises (> 0.3 at the end; Stage A: > half its noise ceiling)",
+   true
+  ],
+  [
+   "Stage C: entropy falls gradually, no premature collapse",
+   true
+  ],
+  [
+   "Stage C: policy change per update small",
+   true
+  ],
+  [
+   "Stage H: reward improves from the start",
+   true
+  ],
+  [
+   "Stage H: reward flattens (small slope at the end)",
+   true
+  ],
+  [
+   "Stage H: 3 seeds agree (spread \u2264 10% of mean or \u2264 0.03)",
+   true
+  ],
+  [
+   "Stage H: critic explained variance rises (> 0.3 at the end; Stage A: > half its noise ceiling)",
+   true
+  ],
+  [
+   "Stage H: entropy falls gradually, no premature collapse",
+   true
+  ],
+  [
+   "Stage H: policy change per update small",
+   true
+  ],
+  [
+   "Stage A: \u226595% of decisions within 1% of the brute-force best (every seed)",
+   true
+  ],
+  [
+   "Stage B: every seed beats Random, Redundancy-2 and JSQ at every load",
+   true
+  ],
+  [
+   "Stage B: fewer copies at high load than at low load (sanity scenario 3)",
+   "True"
+  ],
+  [
+   "Stage C models, closed loop: history gain > 0 (95% CI, every seed)",
+   true
+  ],
+  [
+   "Stage C: the secretly slowed server is avoided as results arrive (sanity scenario 4)",
+   true
+  ],
+  [
+   "History test: reward gain from history > 0 (paired, 95% CI, every seed)",
+   true
+  ],
+  [
+   "History test: slowed server avoided after the first results (paired twins, 95% CI, every seed)",
+   true
+  ],
+  [
+   "Rule: an urgent request is always sent (sanity scenario 5)",
+   true
+  ],
+  [
+   "Rule: an idle server with waiting requests forces at least one edge",
+   true
+  ],
+  [
+   "Rule: otherwise holding requests back is possible",
+   true
+  ],
+  [
+   "Rule: capacity, copy limit and no repeated edge are never violated",
+   true
+  ],
+  [
+   "Generalisation: every seed beats every baseline in all 5 conditions",
+   true
+  ]
+ ]
+}

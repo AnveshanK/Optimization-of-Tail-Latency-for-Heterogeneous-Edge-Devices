@@ -1,0 +1,10 @@
+# torch / torchvision are installed separately by run.py: per machine, the newest build that works
+# on its GPU (tested), or the CPU build. The build used is recorded with the data.
+# Everything else is pinned so all machines run an identical software stack.
+ultralytics==8.3.40          # needed by the bundled YOLOv5 code (yolov5/)
+transformers==4.46.3         # Wav2Vec2 speech model
+huggingface_hub>=0.23,<1.0
+soundfile==0.12.1            # FLAC decoding (no ffmpeg needed)
+psutil>=5.9
+nvidia-ml-py>=12.535         # GPU monitoring (pynvml); harmless on CPU-only machines
+setuptools>=70,<80           # YOLOv5 still imports pkg_resources
